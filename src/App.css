@@ -1,0 +1,81 @@
+.insertion-sort-visualizer {
+	font-family: "Arial", sans-serif;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	max-width: 800px;
+	margin: 20px auto;
+	padding: 20px;
+	background-color: #f8f9fa;
+	border-radius: 8px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.input-section {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 20px;
+}
+
+.input-section input,
+.input-section button {
+	margin: 10px;
+	padding: 10px;
+	border-radius: 5px;
+	border: 1px solid #ddd;
+	font-size: 16px;
+}
+
+.input-section input {
+	width: 300px; /* Adjust width for input */
+}
+
+.input-section button {
+	background-color: #007bff;
+	color: white;
+	border: none;
+	cursor: pointer;
+	transition: background-color 0.3s, transform 0.3s;
+}
+
+.input-section button:hover {
+	background-color: #0056b3;
+	transform: scale(1.05);
+}
+
+.visualization-section {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+svg {
+	margin-bottom: 20px;
+	width: 100%;
+	height: 200px; /* Adjust height for SVG */
+}
+
+.array-view {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 20px;
+}
+
+.array-element {
+	margin: 0 5px;
+	padding: 10px;
+	background-color: #e9ecef;
+	border-radius: 5px;
+}
+
+.textual-view {
+	margin-bottom: 20px;
+	font-size: 16px;
+}
+
+#root {
+	width: 100vw;
+	height: 100%;
+}

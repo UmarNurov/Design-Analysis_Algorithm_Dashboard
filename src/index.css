@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.selection-sort-visualizer {
+	@apply flex flex-col items-center justify-center my-8 mx-auto p-6 bg-gray-100 rounded shadow-lg;
+}
+
+.input-section {
+	@apply flex flex-col items-center mb-4;
+}
+
+.input-text {
+	@apply mb-2 px-4 py-2 border rounded;
+}
+
+.btn-visualize {
+	@apply bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded cursor-pointer;
+}
+
+.visualization-section {
+	@apply w-full mb-4;
+}
+
+.log-section {
+	@apply text-sm;
+}
