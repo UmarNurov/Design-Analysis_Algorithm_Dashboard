@@ -11,6 +11,7 @@ import Merge from "./Pages/Merge";
 import Binary from "./Pages/Binary";
 import Knapsack from "./Pages/Knapsack";
 import Coin from "./Pages/Coin";
+import Huffman from "./Pages/Huffman";
 import "./App.css";
 
 function App() {
@@ -28,7 +29,8 @@ function App() {
 					<Route path='/binary-search' element={<Binary />} />
 					<Route path='/knapsack-problem' element={<Knapsack />} />
 					<Route path='/coin-change' element={<Coin />} />
-
+					<Route path='/huffman-coding' element={<Huffman />} />
+					{/* <Route path='/tsp-problem' element={<TSP />} /> */}
 					
 
 					{/* <BubbleSort /> */}

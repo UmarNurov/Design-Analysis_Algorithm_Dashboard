@@ -1,19 +1,16 @@
 import React from "react";
-import KnapsackProblem from "../Components/KnapsackProblem";
+import HuffmanCoding from "../Components/HuffmanCoding";
 import { useState } from "react";
 import Navbar from "../Components/Navbar";
 
-const Knapsack = () => {
+const Huffman = () => {
 	const [data, setData] = useState();
 	return (
 		<div className='h-screen overflow-x-hidden'>
 			<Navbar />
-			<KnapsackProblem data={data} setData={setData} />
+			<HuffmanCoding data={data} setData={setData} />
 		</div>
 	);
 };
 
-export default Knapsack;
-
-
-	
+export default Huffman;

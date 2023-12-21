@@ -38,6 +38,12 @@ const Modal = ({ setModalOpen, isModalOpen }) => {
 								<li className="p-2 text-md font-semibold hover:bg-sky-600 hover:text-white hover:rounded-xl">
 									<Link to='/coin-change'>Coin Change ALgorithm</Link>
 								</li>
+								<li className="p-2 text-md font-semibold hover:bg-sky-600 hover:text-white hover:rounded-xl">
+									<Link to='/huffman-coding'>Huffman Coding ALgorithm</Link>
+								</li>
+								<li className="p-2 text-md font-semibold hover:bg-sky-600 hover:text-white hover:rounded-xl">
+									<h2><a href="https://fszewczyk.github.io/tsp-solver/">Travel Salesman Problem</a></h2>
+								</li>
 							</ul>
 						</div>
 					</div>
